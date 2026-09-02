@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "cvegagaray/backup-ui",
+    "description": "This is my package backup-ui",
     "keywords": [
-        ":vendor_name",
+        "Claudio Vega",
         "laravel",
-        ":package_slug"
+        "backup-ui"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/cvegagaray/backup-ui",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Claudio Vega",
+            "email": "cvegagaray@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,18 +30,17 @@
         "pestphp/pest-plugin-laravel": "^4.0",
         "phpstan/extension-installer": "^1.4",
         "phpstan/phpstan-deprecation-rules": "^2.0",
-        "phpstan/phpstan-phpunit": "^2.0",
-        "spatie/laravel-ray": "^1.35"
+        "phpstan/phpstan-phpunit": "^2.0"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Claudio Vega\\BackupUi\\": "src/",
+            "Claudio Vega\\BackupUi\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Claudio Vega\\BackupUi\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +62,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Claudio Vega\\BackupUi\\BackupUiServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "BackupUi": "Claudio Vega\\BackupUi\\Facades\\BackupUi"
             }
         }
     },

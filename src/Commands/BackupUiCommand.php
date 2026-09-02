@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Claudio Vega\BackupUi\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class BackupUiCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'backup-ui';
 
     public $description = 'My command';
 
